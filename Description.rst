@@ -1,0 +1,1 @@
+This is a test package that generates a file containing the system details.
