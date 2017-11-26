@@ -1,0 +1,10 @@
+# Include the license file
+include LICENSE
+include README.rst
+
+# Include the data files
+recursive-include data *
+
+recursive-include tests *
+recursive-include * __pycache__
+recursive-include * *.py[co]
