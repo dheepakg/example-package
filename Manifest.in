@@ -14,6 +14,5 @@ include *.in
 include tox.ini
 
 # added by check_manifest.py
-include *.in
 include *.rst
 include *.txt
