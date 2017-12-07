@@ -10,9 +10,11 @@ recursive-include * __pycache__
 recursive-include * *.py[co]
 
 # added by check_manifest.py
-include *.in
-include tox.ini
-
-# added by check_manifest.py
 include *.rst
 include *.txt
+include *.yml
+include *.cfg
+include *.cfg
+include *.in
+include *.ini
+
