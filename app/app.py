@@ -19,5 +19,7 @@ def system_details():
     os_version = platform.release()
     os_release = platform.platform()
 
-    details = processor+'|'+chipset+'|'+os_family+'|'+os_version+'|'+os_release+'|'+computer_name+'|'+time_now+'|'+time_zone
+    details = processor+'\n'+chipset+'\n'+os_family+'\n'+os_version+'\n'+os_release+'\n'+computer_name+'\n'+time_now+'\n'+time_zone
+    print(details)
     return(details)
+

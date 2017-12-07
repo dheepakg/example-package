@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='test_package',
+    name='export-sys-dtls',
     version='0.0.1',
     description='Captures system details in a flat file',
     url='https://github.com/dheepakg/example-package',
@@ -11,7 +11,7 @@ setup(
     packages=find_packages(exclude=['docs','tests']),
     install_requires=['os','platforms','time','datetime'],
     package_data={
-        'sample':['package_data.dat']
+        'sample':['app.py']
     },
     entry_points={
         'console_scripts':['hello=example_package.cli:say_hello',], #.exe file gets created here

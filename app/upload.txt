@@ -1,0 +1,8 @@
+Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+AMD64
+Windows
+10
+Windows-10-10.0.16299-SP0
+Dheepak-PC
+2017-12-06 22:00:10.054399
+Central Standard Time
